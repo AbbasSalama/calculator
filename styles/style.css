@@ -1,0 +1,78 @@
+body{
+    font-family: "roboto", sans-serif;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.clculator{
+    width: 349px;
+    background-color: rgb(107, 107, 107);
+}
+
+header{
+    padding: 0.5rem;
+    background-color: rgb(68, 0, 68);
+}
+
+div#screen{
+    width: 96%;
+    margin: 0.3rem;
+    height: 45px;
+    font-size: x-large;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+button{
+    border-radius: 0;
+    border: 0px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(122, 63, 122);
+    transition: 0.5s ease-in-out;
+}
+
+div.c-del{
+    margin: 0.5rem;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.c-del button{
+    width: 49.7%;
+    height: 40px;
+    background-color: rgb(61, 61, 61);
+}
+
+div.buttons{
+    margin: 0.5rem;   
+}
+
+div.buttons div{
+    margin-bottom: 0.3rem;
+}
+
+div.buttons button{
+    width: 24%;
+}
+
+button.operation{
+    background-color: rgb(61, 61, 61);
+}
+
+button.equal{
+    background-color: rgb(68, 0, 68);
+}
